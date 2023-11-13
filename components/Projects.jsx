@@ -27,7 +27,7 @@ const Projects = () => {
               <Image
                 src={nextjs}
                 alt="Next.js"
-                className="w-full rounded-md h-auto mb-4 lg:h-20 md:w-44 lg:w-32 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-60 mb-4 lg:h-20 md:w-44 lg:w-32 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
               />
               <a
                 href="#"
@@ -62,7 +62,7 @@ const Projects = () => {
               <Image
                 src={reactjs}
                 alt="React.js"
-                className="w-full rounded-md h-auto lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-60 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
               />
               <a
                 href="#"
@@ -97,7 +97,7 @@ const Projects = () => {
               <Image
                 src={laravel}
                 alt="Laravel"
-                className="w-full rounded-md h-auto lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-60 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
               />
               <a
                 href="#"
@@ -132,7 +132,7 @@ const Projects = () => {
               <Image
                 src={codeigniter}
                 alt="CodeIgniter"
-                className="w-full rounded-md h-auto lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-60 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
               />
               <a
                 href="#"
@@ -175,7 +175,7 @@ const Projects = () => {
                   <Image
                     src={vuejs}
                     alt="Vue.js"
-                    className="w-full rounded-md h-auto lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                    className="w-full rounded-md h-60 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
                   />
                   <a
                     href="#"
@@ -214,7 +214,7 @@ const Projects = () => {
                   <Image
                     src={nuxtjs}
                     alt="Nuxt.js"
-                    className="w-full rounded-md h-auto lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                    className="w-full rounded-md h-60 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
                   />
                   <a
                     href="#"

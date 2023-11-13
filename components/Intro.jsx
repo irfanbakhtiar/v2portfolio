@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <section className="min-h-screen text-center">
       {/* Header start */}
-      <nav className="py-10 mb-2 lg:mb-12 flex justify-between p-4">
+      <nav className="py-10 mb-2 lg:mb-12 flex items-center justify-between p-4">
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
