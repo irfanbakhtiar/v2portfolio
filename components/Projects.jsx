@@ -27,16 +27,16 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:px-10">
         {/* Next.js */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
-          <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+          <div className="w-full flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
                 src={nextjs}
                 alt="Next.js"
-                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
                 href="#"
-                className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
               >
                 My Project Next.js{" "}
                 <FiArrowUpRight className="inline-flex group-hover:-translate-y-1 " />
@@ -62,16 +62,16 @@ const Projects = () => {
         </div>
         {/* React.js */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
-          <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+          <div className="w-full after:flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
                 src={reactjs}
                 alt="React.js"
-                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
                 href="#"
-                className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
               >
                 My Project React.js{" "}
                 <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
@@ -97,16 +97,16 @@ const Projects = () => {
         </div>
         {/* Laravel */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
-          <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+          <div className="w-full flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
                 src={laravel}
                 alt="Laravel"
-                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
                 href="#"
-                className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
               >
                 My Project Laravel{" "}
                 <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
@@ -132,16 +132,16 @@ const Projects = () => {
         </div>
         {/* CodeIgniter */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
-          <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+          <div className="w-full flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
                 src={codeigniter}
                 alt="CodeIgniter"
-                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
                 href="#"
-                className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
               >
                 My Project CodeIgniter{" "}
                 <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
@@ -175,16 +175,16 @@ const Projects = () => {
               transition={{ delay: 0.1 }}
               className="flex flex-col items-center rounded-lg shadow md:flex-row"
             >
-              <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+              <div className="w-full flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
                 <div className="md:flex md:items-center">
                   <Image
                     src={vuejs}
                     alt="Vue.js"
-                    className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                    className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
                   />
                   <a
                     href="#"
-                    className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                    className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
                   >
                     My Project Vue.js{" "}
                     <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
@@ -214,16 +214,16 @@ const Projects = () => {
               transition={{ delay: 0.1 }}
               className="flex flex-col items-center rounded-lg shadow md:flex-row"
             >
-              <div className="flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
+              <div className="w-full flex flex-col justify-between md:p-4 leading-normal md:border md:border-slate-800 md:rounded-lg">
                 <div className="md:flex md:items-center">
                   <Image
                     src={nuxtjs}
                     alt="Nuxt.js"
-                    className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 border-solid border-2 border-slate-600 lg:hover:border-solid lg:hover:border-2 lg:hover:border-semidark"
+                    className="w-full rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 mb-4 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
                   />
                   <a
                     href="#"
-                    className="group md:ml-4 mb-2 text-base lg:text-lg font-medium font-title text-primary hover:text-sky"
+                    className="group md:ml-4 mb-2 text-base font-medium font-title text-primary hover:text-sky"
                   >
                     My Project Nuxt.js{" "}
                     <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
