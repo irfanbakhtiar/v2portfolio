@@ -256,14 +256,14 @@ const Projects = () => {
         {viewMore ? (
           <button
             onClick={() => setViewMore(false)}
-            className="w-36 h-12 text-semidark text-[14px] font-medium hover:underline hover:underline-offset-4 hover:text-sky"
+            className=" text-primary text-[14px] font-medium hover:underline hover:underline-offset-4 hover:decoration-sky"
           >
             Less Projects
           </button>
         ) : (
           <button
             onClick={() => setViewMore(true)}
-            className="w-36 h-12 text-primary text-[14px] font-medium hover:underline hover:underline-offset-4 hover:text-sky "
+            className=" text-primary text-[14px] font-medium hover:underline hover:underline-offset-4 hover:decoration-sky "
           >
             More Projects
           </button>

@@ -60,7 +60,8 @@ const Intro = () => {
           className="text-semidark leading-8 py-5 text-sm md:text-base tracking-wider"
         >
           I create website design and develop website. Focus on building
-          beautiful interfaces & experiences.
+          beautiful <span className="text-primary font-medium">interfaces</span>{" "}
+          & <span className="text-primary font-medium">experiences</span>.
         </motion.p>
         {/* Social Media */}
         <div className="flex justify-center">
