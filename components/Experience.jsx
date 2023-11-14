@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="max-w-containerSmall mx-auto py-6">
+    <motion.div
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.1 }}
+      className="max-w-containerSmall mx-auto py-6"
+    >
       <h3 className="text-sm md:text-base py-5 md:py-10 font-semibold uppercase text-primary tracking-wider">
         Internship experience and work as
       </h3>
@@ -60,7 +66,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

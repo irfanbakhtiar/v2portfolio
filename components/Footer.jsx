@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <div className="text-center py-5">
+    <motion.div
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.3 }}
+      className="text-center py-5"
+    >
       {/* Footer content */}
       <span className="block pt-1 text-xs md:text-sm text-slate-500">
         Created by{" "}
@@ -31,7 +37,7 @@ const Footer = () => {
         </a>
         .
       </span>
-    </div>
+    </motion.div>
   );
 };
 

@@ -14,7 +14,12 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const [viewMore, setViewMore] = useState(false);
   return (
-    <div className="max-w-containerSmall mx-auto py-6">
+    <motion.div
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.2 }}
+      className="max-w-containerSmall mx-auto py-6"
+    >
       <h3 className="text-sm md:text-base py-5 md:py-10 font-semibold uppercase text-primary tracking-wider">
         Completed Projects
       </h3>
@@ -251,20 +256,20 @@ const Projects = () => {
         {viewMore ? (
           <button
             onClick={() => setViewMore(false)}
-            className="w-36 h-12 text-semidark text-[14px] font-medium hover:text-sky"
+            className="w-36 h-12 text-semidark text-[14px] font-medium hover:underline hover:underline-offset-4 hover:text-sky"
           >
             Less Projects
           </button>
         ) : (
           <button
             onClick={() => setViewMore(true)}
-            className="w-36 h-12 text-primary text-[14px] font-medium hover:text-sky"
+            className="w-36 h-12 text-primary text-[14px] font-medium hover:underline hover:underline-offset-4 hover:text-sky "
           >
             More Projects
           </button>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
