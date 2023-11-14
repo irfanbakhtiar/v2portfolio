@@ -14,7 +14,7 @@ const Experience = () => {
       </h3>
       <div className="grid grid-cols-1 lg:ml-96">
         {/* Badan Pusat Statistik */}
-        <div className="flex items-start justify-between lg:px-10 mb-6">
+        <div className="flex justify-between lg:px-10 mb-6">
           <div className="flex flex-col">
             <a
               href="#"
