@@ -44,7 +44,7 @@ const Experience = () => {
             <span className="text-sm text-semidark">
               Wonosobo, Central Java
             </span>
-            <span className="text-sm text-semidark">Jul 2019 - Aug 2019</span>
+            <span className="text-sm text-semidark">Jul - Aug 2019</span>
           </div>
         </div>
         {/* Global Technology Solution */}
