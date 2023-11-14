@@ -3,7 +3,7 @@ import { FiInstagram, FiFacebook, FiLinkedin, FiGithub } from "react-icons/fi";
 
 const Intro = () => {
   return (
-    <section className="md:min-h-screen text-center">
+    <section className="lg:min-h-screen text-center">
       {/* Header start */}
       <nav className="py-5 mb-2 lg:mb-12 flex items-center justify-between p-4">
         <motion.a
