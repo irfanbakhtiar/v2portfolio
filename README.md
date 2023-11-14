@@ -8,7 +8,7 @@
   <h3 align="center">IrfanBakhtiar-V2</h3>
 
   <p align="center">
-    Second version of my personal site built with Nextjs, Reactjs and Tailwind CSS
+    Second version of my portfolio website built with Next.js, React.js and Tailwind CSS
     <br />
     <a href="https://github.com/irfanbakhtiar/v2portfolio/issues">Report Bug</a>
 <!--     ·
