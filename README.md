@@ -56,7 +56,7 @@ _Below are the procedures for installing and setting up your app._
    ```sh
    git clone https://github.com/irfanbakhtiar/v2portfolio.git
    ```
-2. Install NPM
+2. Install npm package
    ```sh
    npm install
    ```
