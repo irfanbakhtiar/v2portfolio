@@ -26,7 +26,7 @@ This project uses the following framework:
 
 This project uses the following plugin:
 
-- <a href="https://github.com/basecamp/trix">React Icons</a>
+- <a href="https://react-icons.github.io/react-icons/">React Icons</a>
 
 <!-- FEATURES -->
 
