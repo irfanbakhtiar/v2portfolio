@@ -15,9 +15,9 @@ const Projects = () => {
   const [viewMore, setViewMore] = useState(false);
   return (
     <motion.div
-      initial={{ y: 10, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 1.2 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.6 }}
       className="max-w-containerSmall mx-auto py-6"
     >
       <h3 className="text-sm md:text-base py-5 md:py-10 font-semibold uppercase text-primary tracking-wider">
@@ -48,13 +48,13 @@ const Projects = () => {
               quo vero assumenda!
             </p>
             <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Next.js
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Framer
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Vercel
               </span>
             </ul>
@@ -83,13 +83,13 @@ const Projects = () => {
               molestias nisi dolorem.
             </p>
             <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 React.js
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Framer
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Vercel
               </span>
             </ul>
@@ -118,13 +118,13 @@ const Projects = () => {
               molestias nisi dolorem.
             </p>
             <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Laravel
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Framer
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Vercel
               </span>
             </ul>
@@ -153,13 +153,13 @@ const Projects = () => {
               molestias nisi dolorem.
             </p>
             <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 CodeIgniter
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Framer
               </span>
-              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+              <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                 Vercel
               </span>
             </ul>
@@ -196,13 +196,13 @@ const Projects = () => {
                   reprehenderit molestias nisi dolorem.
                 </p>
                 <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Vue.js
                   </span>
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Framer
                   </span>
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Vercel
                   </span>
                 </ul>
@@ -235,13 +235,13 @@ const Projects = () => {
                   reprehenderit molestias nisi dolorem.
                 </p>
                 <ul className="text-xs md:text-sm text-dark flex items-center gap-2 flex-wrap">
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Nuxt.js
                   </span>
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Framer
                   </span>
-                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 last:mr-0 mr-0">
+                  <span className="text-xs text-sky font-medium inline-block py-1 px-3 rounded-full bg-slate-800 hover:bg-slate-700 last:mr-0 mr-0">
                     Vercel
                   </span>
                 </ul>
